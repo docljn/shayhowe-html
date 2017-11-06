@@ -235,6 +235,15 @@ p a {
   margin: 0;
   text-transform: uppercase;
 }
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #77a198;
+}
 .btn-alt {
   border: 1px solid #fff;
   padding: 10px 30px;
@@ -243,18 +252,6 @@ p a {
   background: #fff;
   color: #648880;
 }
-
-.btn-default: {
-  border: 0;
-  background: #648880;
-  padding: 11px 30px;
-  font-size: 14px;
-}
-
-.btn-default:hover {
-  background: #77a198;
-}
-
 
 /*
   ========================================
@@ -372,6 +369,21 @@ p a {
 
 /*
   ========================================
+  Schedule
+  ========================================
+*/
+
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+table:last-child {
+  margin-bottom: 0;
+}
+
+
+/*
+  ========================================
   Venue
   ========================================
 */
@@ -386,7 +398,6 @@ p a {
   height: 264px;
 }
 
-
 /*
   ========================================
   Register
@@ -397,17 +408,14 @@ p a {
   list-style: square;
   margin: 0 0 22px 30px;
 }
-
 form {
   margin-bottom: 22px;
 }
-
 input,
 select,
 textarea {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 .register-group label {
   color: #648880;
   cursor: pointer;
@@ -434,4 +442,3 @@ textarea {
 .register-group textarea {
   height: 78px;
 }
-
